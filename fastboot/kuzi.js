@@ -6865,7 +6865,7 @@ define('kuzi/transitions', ['exports'], function (exports) {
 /* jshint ignore:start */
 
 define('kuzi/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"kuzi","environment":"production","baseURL":"/","locationType":"hash","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"kuzi","version":"0.0.0+10faf739","autoboot":false},"contentSecurityPolicy":{"img-src":"'self' stackoverflow.com","font-src":"'self' fonts.gstatic.com themes.googleusercontent.com","style-src":"'self' 'unsafe-inline' fonts.googleapis.com","frame-src":"*.facebook.com *.youtube.com *.youtube-nocookie.com","script-src":"'self' 'unsafe-eval' *.youtube.com *.ytimg.com","default-src":"'none'","connect-src":"'self'","media-src":"'self'"},"contentSecurityPolicyHeader":"Content-Security-Policy-Report-Only","sassOptions":{"includePaths":["bower_components/foundation/scss"]},"exportApplicationGlobal":false}};
+  return { 'default': {"modulePrefix":"kuzi","environment":"production","baseURL":"/","locationType":"hash","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"kuzi","version":"0.0.0+c0428823","autoboot":false},"contentSecurityPolicy":{"img-src":"'self' stackoverflow.com","font-src":"'self' fonts.gstatic.com themes.googleusercontent.com","style-src":"'self' 'unsafe-inline' fonts.googleapis.com","frame-src":"*.facebook.com *.youtube.com *.youtube-nocookie.com","script-src":"'self' 'unsafe-eval' *.youtube.com *.ytimg.com","default-src":"'none'","connect-src":"'self'","media-src":"'self'"},"contentSecurityPolicyHeader":"Content-Security-Policy-Report-Only","sassOptions":{"includePaths":["bower_components/foundation/scss"]},"exportApplicationGlobal":false}};
 });
 
 /* jshint ignore:end */
