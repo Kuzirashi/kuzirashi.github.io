@@ -1,7 +1,11 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^1.3.3"
+  },
   "fastboot": {
-    "moduleWhitelist": [],
+    "moduleWhitelist": [
+      "node-fetch"
+    ],
     "manifest": {
       "appFile": "fastboot/kuzi.js",
       "vendorFile": "fastboot/vendor.js",
