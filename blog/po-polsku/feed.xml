@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general.title</title>
+    <description>general.description</description>
+    <link>http://danielkmak.com/blog/po-polsku/</link>
+    <atom:link href="http://danielkmak.com/blog/po-polsku/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Aug 2016 23:31:22 +0200</pubDate>
+    <lastBuildDate>Sun, 14 Aug 2016 23:31:22 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>posts.howiused</title>
+        <description>&lt;p&gt;Cześć, jestem Daniel. Mam 18 lat. Nie mam studiów w IT. W maju napisałem maturę. Mam dwie wymarzone, bardzo dobrze płatne prace. Jestem front-end developerem na pełen etat i zdalnym konsultantem Ember.js w niepełnym wymiarze godzin.&lt;/p&gt;
+
+&lt;p&gt;Nie mam wątpliwości, że obydwie prace dostałem dzięki &lt;strong&gt;Stack Overflow&lt;/strong&gt; i &lt;strong&gt;Githubowi&lt;/strong&gt;. Oto sposób w jaki wykorzystałem te świetne strony, żeby zdobyć:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reputację szanowaną przez pracodawców&lt;/li&gt;
+  &lt;li&gt;uwagę potrzebną, aby firmy zaprosiły mnie na 10–15 wideo-rozmów kwalifikacyjnych, firmy głównie preferujące współpracę zdalną&lt;/li&gt;
+  &lt;li&gt;pracę zdalną konsultanta Ember.js&lt;/li&gt;
+  &lt;li&gt;pracę front-end developera na pełen etat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;github&quot;&gt;GitHub&lt;/h2&gt;
+
+&lt;p&gt;GitHub pomógł mi dostać nie jedną, a dwie prace! Wykorzystałem konto na GitHubie jako moją zaletę podczas rozmowy technicznej w sprawie zdalnej pracy konsultanta. Również wtedy, gdy byłem rozważany na obecne stanowisko front-end developera byłem poproszony o podanie adresu mojego konta na GitHubie.&lt;/p&gt;
+
+&lt;p&gt;Potrzebujesz mieć coś w ręce kiedy stajesz oko w oko z pracodawcą. Wymagana jest od Ciebie znajomość konkretnego języka, frameworka, ale równie &lt;strong&gt;ważne&lt;/strong&gt; jest, aby przekonać firmę, że &lt;strong&gt;jedynym miejscem dla spaghetti w Twoim życiu jest Twoja dieta&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-1024x725.jpg&quot; alt=&quot;spaghetti&quot; class=&quot;aligncenter size-large wp-image-3159&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-1024x725.jpg 1024w, https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-640x453.jpg 640w, https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-768x544.jpg 768w, https://webmastah.pl/wp-content/uploads/2016/08/spaghetti.jpg 1400w&quot; width=&quot;800&quot; height=&quot;566&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub jest miejscem gdzie możesz zaprezentować swój kod. Na przykład, kiedy uczysz się nowej technologii, załóż repozytorium z małym prototypem (“&lt;a href=&quot;https://en.wikipedia.org/wiki/Proof_of_concept&quot;&gt;proof of concept&lt;/a&gt;”) tego jak można wykorzystać ową technologię. Wrzuć to na GitHub’a. To podejście ma 4 plusy:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+Możesz wykorzystać to jako dowód, że znasz technologię, język, framework
+
+&lt;/li&gt;
+&lt;li&gt;
+Ludzie widzą, że piszesz dobry kod, że jesteś w stanie go dobrze zaprojektować, znasz [OOP], piszesz [SOLID]ny, czysty kod. Dzięki temu rekruterzy mają co pokazać zespołowi developerów, a oni zdecydują czy chcą Cię sprawdzić
+
+&lt;/li&gt;
+&lt;li&gt;
+Znasz co najmniej podstawy Gita — w końcu zarządzasz repozytoriami na GitHub’ie
+
+&lt;/li&gt;
+&lt;li&gt;
+Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia, które na podstawie tego w jakich językach masz repozytoria na GitHub’ie pokazują im odnośnie jakich stanowisk mogą się z Tobą skontaktować. Otrzymałem w ten sposób około 10 maili. Więc, jeśli masz repozytorium w C\# jest możliwe, że wkrótce otrzymasz ofertę stanowiska C\#. Oczywiście, mail od rekrutera to początek drogi, ale rozmowy się rozpoczynają. Ty natomiast jesteś w sytuacji, w której to oni zgłosili się do Ciebie, a nie odwrotnie. Uwierz mi, że to dużo pomaga.
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Robiłem to wszystko. Dostałem te oferty. Aczkolwiek nie dla wszystkich moich projektów – część z nich została stworzona prywatnie na GitLabie. Miałem nadzieję, że na siebie zarobią, ale nie ukończyłem ich. Z perspektywy czasu uważam, że one też powinny się znaleźć na GitHubie. Jeśli wrzucę je jako open-source z minimalną ilością dokumentacji na temat ich działania oraz zdjęciami, wtedy staną się częścią mojego portfolio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/gitbuhrepo.gif&quot; alt=&quot;gitbuhrepo&quot; class=&quot;aligncenter size-full wp-image-3162&quot; width=&quot;600&quot; height=&quot;295&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Przyczyniłem się też do rozwoju różnych, głównie powiązanych z Emberem repozytoriów. Czasami dodawałem dokumentację, a czasami kod. Dobrze móc powiedzieć na rozmowie kwalifikacyjnej, że wrzuciłeś swoją cegiełkę do dużego projektu. W moim przypadku były to małe zmiany.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/githubcommits.png&quot; alt=&quot;githubcommits&quot; class=&quot;aligncenter size-full wp-image-3164&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/githubcommits.png 800w, https://webmastah.pl/wp-content/uploads/2016/08/githubcommits-640x277.png 640w, https://webmastah.pl/wp-content/uploads/2016/08/githubcommits-768x332.png 768w&quot; width=&quot;800&quot; height=&quot;346&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;stack-overflow&quot;&gt;Stack Overflow&lt;/h2&gt;
+
+&lt;p&gt;Kilka lat temu wierzyłem, że Stack Overflow jest najpewniejszą drogą do znalezienia pracy bez studiów. Miałem rację.&lt;/p&gt;
+
+&lt;p&gt;Skąd wiedziałem? Uwielbiam kulturę open-source. Trafiłem na artykuły, w których przeczytałem, że pracodawcy mierzą Twoje umiejętności przez pryzmat Twojego konta na Stack Overflow. W rzeczywistości nie jest aż tak różowo. Ale, kiedy byłem w trakcie rozmów z moją obecną firmą, w sprawie pracy na etat, prawie 10 tysięcy reputacji (jeszcze w czerwcu), połączone z moim wiekiem były wystarczające, żeby wywołać efekt wow na twarzy pracodawcy. Zdecydowali się na mnie postawić. Dzięki, Stack Overflow!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow.png&quot; alt=&quot;stackoverflow&quot; class=&quot;aligncenter size-full wp-image-3165&quot; width=&quot;219&quot; height=&quot;284&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tworzyłem rzeczy w najróżniejszych językach i frameworkach. Lista serwerów gamingowych w ASP.NET i Mono, gra tower defense w XNA, serwer w Javie, klient C# WPF. Jedyną rzeczą, która łączy moje zainteresowania to prawdopodobnie wykorzystywanie sieci do przesyłania lub odbierania danych.&lt;/p&gt;
+
+&lt;p&gt;Moim asem w rękawie jest Ember.js. Zacząłem naukę kiedy miałem 16 lat (w 2013), po tym jak obejrzałem tą &lt;a href=&quot;https://www.youtube.com/watch?v=u6RFyVN9sNg&quot;&gt;naprawdę niesamowitą prezentację&lt;/a&gt; &lt;a href=&quot;https://medium.com/@wycats&quot;&gt;Yehudy Katz&lt;/a&gt; z konferencji HTML5 w San Francisco. A więc miałem cel, nauczyć się Embera. Potrzebowałem motywacji i determinacji. Cytat z tego &lt;a href=&quot;https://www.youtube.com/watch?v=rstD4rm3EQ8&amp;amp;feature=youtu.be&quot;&gt;filmu&lt;/a&gt; jest w mojej głowie odkąd usłyszałem go po raz pierwszy:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whatever you do, be passionate about it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To prawda. Cokolwiek robisz, pasjonuj się tym. Wracając do Stack Overflow. Na początku, kiedy się uczyłem, szukałem tam odpowiedzi na pytania. Następnie zacząłem na nie odpowiadać — po to, żeby zdobyć reputację. Miałem otwartą zakładkę z nowymi pytaniami, które pojawiały się w czasie rzeczywistym. W tagach takich jak JavaScript starałem się być pierwszą osobą, która napisze dobrą odpowiedź. W Emberze było o tyle łatwiej, że mniej osób odpowiadało na pytania i był czas na analizę skomplikowanych problemów.&lt;/p&gt;
+
+&lt;p&gt;Po pewnym czasie byłem najlepszym odpowiadającym na przestrzeni ostatnich 30 dni. Miałem rozpoznawalność, miałem maile z ofertami pracy. Jedną z nich była oferta zdalnej pracy w niepełnym wymiarze godzin jako konsultant Ember.js. Dostałem tą ofertę, ponieważ pomogłem osobie na Stack Overflow w tagu Embera. Prawdziwa historia. Oto dowód:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/dowod.png&quot; alt=&quot;dowod&quot; class=&quot;aligncenter size-full wp-image-3166&quot; sizes=&quot;(max-width: 689px) 100vw, 689px&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/dowod.png 689w, https://webmastah.pl/wp-content/uploads/2016/08/dowod-640x45.png 640w&quot; width=&quot;689&quot; height=&quot;48&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Później miałem rozmowę techniczną na temat mojej wiedzy o Emberze. Dałem radę. Jestem konsultantem Ember.js dla Techolution od Listopada 2015 roku.&lt;/p&gt;
+
+&lt;p&gt;Równie ważne jest, żeby założyć profil na karierach Stack Overflow. Dwa powody:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dostajesz schludne CV z Twoimi osiągnięciami ze Stack Overflow, jak np. ilość twoich odpowiedzi&lt;/li&gt;
+  &lt;li&gt;Pracodawcy mogą Cię znaleźć i napisać do Ciebie, do tej pory 2 pracodawców się do mnie zwróciło na tej platformie, obie oferty było bardzo atrakcyjne&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow2.png&quot; alt=&quot;stackoverflow2&quot; class=&quot;aligncenter size-full wp-image-3167&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow2.png 731w, https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow2-64&quot; width=&quot;731&quot; height=&quot;241&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h2&gt;
+
+&lt;p&gt;Wierz w siebie i pracuj ciężko. Dokumentuj swoje umiejętności na GitHubie i Stack Overflow. Otwieraj pull requesty do projektów open source. Twórz własne repozytoria open source. Spraw, żeby ludzie Cię poznali. Pokaż im, że żyjesz gdzieś i jesteś w stanie robić wspaniałe rzeczy. Pokaż im, że masz pasję. W IT, rekruterzy ciężko pracują każdego dnia, aby znaleźć ludzi takich jak Ty. Spraw, żeby ich praca była łatwiejsza.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Aug 2016 16:31:08 +0200</pubDate>
+        <link>http://danielkmak.com/blog/po-polsku/programowanie/2016/08/14/jak-wykorzystalem-stack-overflow-i-github-zeby-dostac-wymarzona-prace-przed-19-urodzinami-bez-studiow.html</link>
+        <guid isPermaLink="true">http://danielkmak.com/blog/po-polsku/programowanie/2016/08/14/jak-wykorzystalem-stack-overflow-i-github-zeby-dostac-wymarzona-prace-przed-19-urodzinami-bez-studiow.html</guid>
+        
+        
+        <category>programowanie</category>
+        
+      </item>
+    
+  </channel>
+</rss>
