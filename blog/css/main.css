@@ -460,3 +460,9 @@ pre {
   color: #000; }
   .site-title:visited {
     color: #000; }
+
+.dark-theme {
+  color: white;
+  background-color: black; }
+  .dark-theme a, .dark-theme a:visited, .dark-theme .page-link {
+    color: white; }
