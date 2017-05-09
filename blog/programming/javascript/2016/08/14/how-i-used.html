@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/blog/css/main.css">
+  <link rel="canonical" href="http://danielkmak.com/blog/programming/javascript/2016/08/14/how-i-used.html">
+  <link rel="alternate" type="application/rss+xml" title="Daniel Kmak blog" href="http://danielkmak.com/blog/feed.xml">
+
+    <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>What will happen when we run out of names for JavaScript frameworks? - Daniel Kmak blog</title>
+<meta property="og:title" content="What will happen when we run out of names for JavaScript frameworks?" />
+<meta name="description" content="Hello, I’m humble developer who works with a lot of JavaScript frameworks, libraries, modules, addons, plugins, browsers, preprocessors, processors, postprocessors, plugins for processors (Autoprefixer), plugins for browsers (Ember inspector), plugins for libraries (jQuery), addons for frameworks." />
+<meta property="og:description" content="Hello, I’m humble developer who works with a lot of JavaScript frameworks, libraries, modules, addons, plugins, browsers, preprocessors, processors, postprocessors, plugins for processors (Autoprefixer), plugins for browsers (Ember inspector), plugins for libraries (jQuery), addons for frameworks." />
+<link rel="canonical" href="http://danielkmak.com/blog/programming/javascript/2016/08/14/how-i-used.html" />
+<meta property="og:url" content="http://danielkmak.com/blog/programming/javascript/2016/08/14/how-i-used.html" />
+<meta property="og:site_name" content="Daniel Kmak blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-08-14T16:31:08+02:00" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "What will happen when we run out of names for JavaScript frameworks?",
+    "datePublished": "2016-08-14T16:31:08+02:00",
+    "description": "Hello, I’m humble developer who works with a lot of JavaScript frameworks, libraries, modules, addons, plugins, browsers, preprocessors, processors, postprocessors, plugins for processors (Autoprefixer), plugins for browsers (Ember inspector), plugins for libraries (jQuery), addons for frameworks.",
+    "url": "http://danielkmak.com/blog/programming/javascript/2016/08/14/how-i-used.html"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+    
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-98279516-1', 'auto');
+  ga('send', 'pageview');
+</script>
+    
+</head>
+
+  
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/blog/">Daniel Kmak blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+        <a class="page-link" href="http://danielkmak.com">Portfolio</a>
+        
+          
+          <a class="page-link" href="/blog/po-polsku" >Polski</a>
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">What will happen when we run out of names for JavaScript frameworks?</h1>
+    <p class="post-meta"><time datetime="2016-08-14T16:31:08+02:00" itemprop="datePublished">Aug 14, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Hello, I’m humble developer who works with a lot of JavaScript frameworks, libraries, modules, addons, plugins, browsers, preprocessors, processors, postprocessors, plugins for processors (<a href="https://github.com/postcss/autoprefixer">Autoprefixer</a>), plugins for browsers (<a href="https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi">Ember inspector</a>), plugins for libraries (<a href="http://jquery.com/">jQuery</a>), addons for frameworks.</p>
+
+<p>Isn’t it a lot of tools that we need to work with on daily basis? How big is your package.json file? Do you know what each dependency is doing? I’ve assumed here that all of them have a purpose in your project. So this is an assumption, and here’s the fact — each of them has name, which you probably need to remember. Some describe its usage — like anti-ecological <a href="https://www.npmjs.com/package/tree-kill">tree-kill</a>, some not. It could take forever to guess what <a href="https://www.npmjs.com/package/forever">forever</a> is doing. Some names are similar but serve different purpose, like <a href="https://www.npmjs.com/package/pad-left">pad-left</a> and <a href="https://www.npmjs.com/package/lpad">lpad</a>. Can you guess without clicking?</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*45VuT5ZFEKwjldegOjsYIg.jpeg" /></p>
+
+<p>JavaScript developers pictured trying to find their way around in node_modules directory :(</p>
+
+<p>So, we see — there’s a lot of JavaScript third party code that you can use in your code. And it’s going to be more and more of that. And people will need to find new names. Programmers are not necessairly language teachers. Well, at least human language teachers. Well, umm, okay, <a href="https://www.italki.com/article/281/learning-english-by-learning-programming">this guy is</a>. So, he can name his library as he likes, because he’s entitled to do that.</p>
+
+<p>Rest of us instead of finding well-suited names, often take random words and use it as name for our code. We, the programmers, like certain words more than the others. For example, <a href="https://www.npmjs.com/package/wrapper">wrapper</a> (<a href="https://www.npmjs.com/package/bin-wrapper">bin-wrapper</a>, <a href="https://www.npmjs.com/package/do-wrapper">do-wrapper</a>, <a href="https://www.npmjs.com/package/word-wrapper">word-wrapper</a>, <a href="https://www.npmjs.com/package/events-wrapper">events-wrapper</a>, <a href="https://www.npmjs.com/package/circuit-breaker-wrapper">circuit-breaker-wrapper</a>). There’s even a <a href="https://www.npmjs.com/package/rapper">rapper</a>. But it’s not normal rapper like Eminem, it’s more like:</p>
+
+<blockquote>
+  <p>Construct wrappers around api RESTful endpoints (Browser/Angular/Node)</p>
+</blockquote>
+
+<p>So basically rapper will give you wrapper.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*OpiDzdo11AWoE7smwyJ8cQ.jpeg" alt="" />
+It’s not the kind of rapper you’d expect from <a href="https://www.npmjs.com/package/rapper">rapper</a></p>
+
+<h3 id="the-problem">The problem</h3>
+
+<p>As we know JavaScript is a popular language. There might be more than <strong>100 000 people</strong> who use it on daily basis. Whether they use it in their job or just to make coffee (<a href="https://www.npmjs.com/package/coffee-maker">coffee-maker</a>). It has a place in daily developer (and computer user) life.</p>
+
+<p>So, JavaScript and its earlier version — Java are already becoming mature enough to use it for more than just programmatically finding good place to eat <a href="https://www.npmjs.com/package/burrito">burrito</a>.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*aO4g_YQRvU0bCbTzn9ttiA.png" alt="" /></p>
+
+<p>There’s this game — think of any random word from English language — if there’s such JavaScript library — you drink. If you don’t want to get drunk too fast, stay at home.</p>
+
+<p>There’s going to be more and more libraries and we’ll sooner or later run out of names for them. I believe it could hit us earlier than <a href="https://en.wikipedia.org/wiki/Year_2038_problem">year 2038 problem</a>. Why? We know JavaScript is state of mind. Programmers have kids. It’s a fact, you can’t argue. Kids usually acquire state of mind from their parents. Which means population of JavaScript developers can grow very fast.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*wopdhcHJqwVp4UMzOAYa3A.jpeg" alt="" /></p>
+
+<p>JavaScript is more than a language, it’s a drug</p>
+<h3 id="the-maths"><strong>The Maths</strong></h3>
+
+<p>Today there are 100k JavaScript developers. They’ve managed to produce <a href="http://www.modulecounts.com/">almost 500 000 node modules</a> in 21 years (JavaScript was born in 1995, shit, older than me). We’ll take 20 for simpler maths (I’ve finished only high school, don’t require more from me). There’s like <a href="https://en.oxforddictionaries.com/explore/how-many-words-are-there-in-the-english-language">200 000 words in English</a>. According to maths we’re already doomed (500k &gt; 200k === true). But let’s assume you can build sentences from words — this gives us more options.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*5NZdHietqSZjF59KGzMCwQ.jpeg" alt="" /></p>
+
+<p>Example: take <strong>stupid</strong> and other words and it’ll make your library name. Like: <strong>stupid</strong> <strong>+</strong> <strong>dictionary</strong> = <a href="https://www.npmjs.com/package/stupid-dictionary"><strong>stupid-dictionary</strong></a>. Yeah, dictionary can totally be stupid. What’s also stupid or frustrating. Maybe <strong>delay</strong>. Yeah, why not, waiting and delays definitely suck. Let’s combine <strong>stupid + delay</strong>. Here we go, <a href="https://www.npmjs.com/package/stupid-delay"><strong>stupid-delay</strong></a>! Oh, no, both already taken! Time is running away. Pardon, names are running away!</p>
+
+<p>We need to be quick! Back to maths! 100k developers, 500k modules, 20 years, 200k words. If, on average, every developer has 2 kids. This means that in 20 another years, in 2037 (year before 2038 year problem!!!) these kids will become new JavaScript developers. This means that we’ll have 100k developers + 200k new-born developers = 300k JavaScript developers. Also, according to maths, before 2037, current 100k developers will produce another 500k modules (like they did 1995–2017). This means we will have already 1 million modules, 300k JavaScript developers, and still only 200k English words. In another 20 years (2037–2057) 300k developers will produce 3 times more modules — 1.5 million. Wrapping ( ͡° ͜ʖ ͡°) it up we’ll have following numbers in 2057:</p>
+
+<ul>
+  <li>300 thousand JavaScript developers</li>
+  <li>2.5 million node modules</li>
+  <li>200 thousand English words (insufficient)</li>
+  <li>1 big problem with names</li>
+</ul>
+
+<p>I hope that you agree with me now that we need to take care of this problem before our kids have to! We can’t leave them with this ultra-hard-to-solve problem!</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*nGPlX_3z8Alr_qxORM_l6w.png" alt="" /></p>
+
+<h3 id="potential-solutions">Potential solutions</h3>
+
+<ol>
+  <li>We can start generating hashes and uuids for new JavaScript frameworks. Imagine 2 developers talking to each other:<br />
+_- Hey, I’m new to programming, which framework is the best for creating single page applications?
+    <ul>
+      <li>Hello, I believe 77c29bcb-6422–462b-bb0f-1ba9fb1430cb is the best, but at work we use e778a475–7009–4fbd-9d83–16ebe6ef713d for its speed and flexibility. Other popular choices are b63e83ce-c6e5–4569-a8dc-b4ad34ffbb7e, c5b8999c-999f-4c8a-811a-d93f77ef5687 and d33df2b9–9325–434a-a507–988cce172cde. Hope I’ve helped!</li>
+      <li>That’s great! Thanks a lot!_</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*nTJ5Zwk-_uER8IcdfZszYg.jpeg" alt="" /></p>
+
+<p>2. We can use QR codes, images, author’s voice sample, something unique and put it instead of name in our package.json.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*OpiDzdo11AWoE7smwyJ8cQ.jpeg" alt="" /></p>
+
+<p>Libraries could be identified by their authors rapping</p>
+
+<p>3. We can try to unify everything as Romans tried or Esperanto. Merging every module out there to Node API or browser API seems like a good idea for a start. We could get rid of all dependencies!</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*TrjXYF-Z9-GdDOeF2fslRw.jpeg" alt="" /></p>
+
+<p>4. Humanity will repent, abandon all modules, go back to Vanilla JS and salvation to JavaScript will be granted through minimalism.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*pVXZ-HW5K98LamTorRXslQ.jpeg" alt="" /></p>
+
+<p>The choice is yours.</p>
+
+  </div>
+
+  
+    
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://danielkmak.com/blog/programming/javascript/2016/08/14/how-i-used.html';
+      this.page.identifier = 'http://danielkmak.com/blog/programming/javascript/2016/08/14/how-i-used.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://danielkmak.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+    <div class="wrapper">
+
+        <h2 class="footer-heading">Follow</h2>
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    <li>Send me message</li>
+                    <li><a href="mailto:contact@danielkmak.com">contact@danielkmak.com</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <a href="https://www.facebook.com/danielkmakcom/">Facebook</a>
+                <br/>
+                <a href="https://twitter.com/danielkmakcom/">Twitter</a>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <a href="https://medium.com/@danielkmak">Medium</a>
+                <br/>
+                <a href="https://www.linkedin.com/in/kmakdaniel/">LinkedIn</a>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <a href="https://github.com/Kuzirashi">GitHub</a>
+                <br/>
+                <a href="http://stackoverflow.com/users/2166409/daniel-kmak">StackOverflow</a>
+            </div>
+        </div>
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    <li><a href="#" id="change-color">Change site color</a></li>
+                </ul>
+            </div>
+            <script>
+                var DARK_THEME_CLASS = 'dark-theme';
+                var DARK_THEME_STORAGE_KEY = 'dark-theme-enabled';
+
+                var darkThemeEnabled = localStorage.getItem(DARK_THEME_STORAGE_KEY);
+                if (darkThemeEnabled) {
+                    document.body.classList.add(DARK_THEME_CLASS);
+                }
+
+                document.querySelector('#change-color').addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    if (document.body.classList.contains(DARK_THEME_CLASS)) {
+                        document.body.classList.remove(DARK_THEME_CLASS);
+                        localStorage.removeItem(DARK_THEME_STORAGE_KEY);
+                    } else {
+                        document.body.classList.add(DARK_THEME_CLASS);
+                        localStorage.setItem(DARK_THEME_STORAGE_KEY, true);
+                    }
+                });
+
+            </script>
+        </div>
+    </div>
+</footer>
+
+
+  </body>
+
+</html>
