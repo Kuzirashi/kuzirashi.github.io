@@ -188,14 +188,17 @@
 
                 document.querySelector('.footer-bottom__newsletter-column__newsletter-label').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.remove('hidden');
+                    ga('send', 'event', 'NewsletterWidget', 'OpenForm', 'Newsletter campaign');
                 });
 
                 document.querySelector('#mc-embedded-subscribe').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.add('hidden');
+                    ga('send', 'event', 'NewsletterWidget', 'SubscribeInNewTab', 'Newsletter campaign');
                 });
 
                 document.querySelector('#close').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.add('hidden');
+                    ga('send', 'event', 'NewsletterWidget', 'CloseForm', 'Newsletter campaign');                    
                 });
             </script>
         </div>
