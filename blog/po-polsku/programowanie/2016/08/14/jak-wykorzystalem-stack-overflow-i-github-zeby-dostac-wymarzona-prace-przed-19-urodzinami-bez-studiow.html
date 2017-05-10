@@ -282,17 +282,17 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
 
                 document.querySelector('.footer-bottom__newsletter-column__newsletter-label').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.remove('hidden');
-                    ga('send', 'event', 'NewsletterWidget', 'OpenForm', 'Newsletter campaign');
+                    ga('send', 'event', 'NewsletterWidget', 'OpenForm');
                 });
 
                 document.querySelector('#mc-embedded-subscribe').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.add('hidden');
-                    ga('send', 'event', 'NewsletterWidget', 'SubscribeInNewTab', 'Newsletter campaign');
+                    ga('send', 'event', 'NewsletterWidget', 'SubscribeInNewTab', document.querySelector('#mce-EMAIL').value);
                 });
 
                 document.querySelector('#close').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.add('hidden');
-                    ga('send', 'event', 'NewsletterWidget', 'CloseForm', 'Newsletter campaign');                    
+                    ga('send', 'event', 'NewsletterWidget', 'CloseForm');                    
                 });
             </script>
         </div>
