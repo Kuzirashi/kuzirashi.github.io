@@ -474,7 +474,7 @@ pre {
   position: relative; }
   .footer-bottom__newsletter-column {
     float: right;
-    padding-right: 15px; }
+    background: inherit; }
     .footer-bottom__newsletter-column__newsletter-label {
       cursor: pointer;
       color: white; }
@@ -484,7 +484,6 @@ pre {
         color: #000; }
     .footer-bottom__newsletter-column__form-fields {
       float: right;
-      width: 351px;
       padding-right: 15px; }
   .dark-theme .footer-bottom {
     background: white; }
@@ -524,8 +523,7 @@ a.post-link {
   text-align: center;
   height: 25px;
   text-transform: uppercase;
-  padding: 0;
-  width: 245px; }
+  padding: 0; }
   .dark-theme #mce-EMAIL {
     background: black;
     color: white; }
@@ -548,3 +546,10 @@ a.post-link {
     text-decoration: underline; }
   .dark-theme .action-button {
     color: black; }
+
+@media screen and (min-width: 600px) {
+  .footer-bottom__newsletter-column {
+    padding-right: 15px; } }
+@media screen and (min-width: 460px) {
+  #mce-EMAIL {
+    width: 245px; } }
