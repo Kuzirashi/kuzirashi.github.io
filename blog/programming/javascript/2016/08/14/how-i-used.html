@@ -278,9 +278,13 @@ _- Hey, I’m new to programming, which framework is the best for creating singl
                     if (document.body.classList.contains(DARK_THEME_CLASS)) {
                         document.body.classList.remove(DARK_THEME_CLASS);
                         localStorage.removeItem(DARK_THEME_STORAGE_KEY);
+
+                        ga('send', 'event', 'Color', 'Change', 'light');                        
                     } else {
                         document.body.classList.add(DARK_THEME_CLASS);
                         localStorage.setItem(DARK_THEME_STORAGE_KEY, true);
+
+                        ga('send', 'event', 'Color', 'Change', 'dark');                                                
                     }
                 });
 
@@ -296,7 +300,7 @@ _- Hey, I’m new to programming, which framework is the best for creating singl
 
                 document.querySelector('#close').addEventListener('click', function (event) {
                     document.querySelector('#mc-embedded-subscribe-form').classList.add('hidden');
-                    ga('send', 'event', 'NewsletterWidget', 'CloseForm');                    
+                    ga('send', 'event', 'NewsletterWidget', 'CloseForm', document.querySelector('#mce-EMAIL').value);                    
                 });
             </script>
         </div>
