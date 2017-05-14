@@ -549,7 +549,25 @@ a.post-link {
 
 @media screen and (min-width: 600px) {
   .footer-bottom__newsletter-column {
-    padding-right: 15px; } }
+    padding-right: 15px; }
+
+  .site-nav {
+    line-height: initial;
+    height: 56px; }
+    .site-nav .trigger {
+      text-transform: uppercase;
+      position: relative;
+      height: 30px;
+      top: 50%;
+      transform: translateY(-50%); }
+      .site-nav .trigger__page-link {
+        color: white;
+        padding: 10px;
+        font-size: 12px;
+        background: #000; }
+        .dark-theme .site-nav .trigger__page-link {
+          color: black;
+          background: white; } }
 @media screen and (min-width: 460px) {
   #mce-EMAIL {
     width: 245px; } }
