@@ -572,7 +572,9 @@ a.post-link {
   position: relative; }
 
 article {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
 
 .image-caption {
   color: #666666;
@@ -585,3 +587,8 @@ article {
 .image_centered {
   display: block;
   margin: auto; }
+
+.post-excerpt {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.6; }
