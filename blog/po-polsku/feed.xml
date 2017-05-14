@@ -5,8 +5,8 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/po-polsku/</link>
     <atom:link href="http://danielkmak.com/blog/po-polsku/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 May 2017 15:51:34 +0200</pubDate>
-    <lastBuildDate>Sun, 14 May 2017 15:51:34 +0200</lastBuildDate>
+    <pubDate>Sun, 14 May 2017 18:00:37 +0200</pubDate>
+    <lastBuildDate>Sun, 14 May 2017 18:00:37 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -52,7 +52,7 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
 &lt;/ul&gt;
 &lt;p&gt;Robiłem to wszystko. Dostałem te oferty. Aczkolwiek nie dla wszystkich moich projektów – część z nich została stworzona prywatnie na GitLabie. Miałem nadzieję, że na siebie zarobią, ale nie ukończyłem ich. Z perspektywy czasu uważam, że one też powinny się znaleźć na GitHubie. Jeśli wrzucę je jako open-source z minimalną ilością dokumentacji na temat ich działania oraz zdjęciami, wtedy staną się częścią mojego portfolio.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/gitbuhrepo.gif&quot; alt=&quot;gitbuhrepo&quot; class=&quot;aligncenter size-full wp-image-3162&quot; width=&quot;600&quot; height=&quot;295&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/scrolling.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Przyczyniłem się też do rozwoju różnych, głównie powiązanych z Emberem repozytoriów. Czasami dodawałem dokumentację, a czasami kod. Dobrze móc powiedzieć na rozmowie kwalifikacyjnej, że wrzuciłeś swoją cegiełkę do dużego projektu. W moim przypadku były to małe zmiany.&lt;/p&gt;
 
