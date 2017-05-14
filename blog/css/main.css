@@ -675,16 +675,25 @@ a.post-excerpt {
     color: white;
     height: 30px;
     line-height: 30px;
-    padding: 0 6px; }
+    padding: 0 6px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase; }
     .dark-theme .post-tags__tag {
       background: white;
       color: black; }
+    .post-tags__tag:not(:first-child) {
+      margin-top: 10px; }
 
 @media screen and (min-width: 461px) {
   .post-thumbnail {
     float: left; } }
-@media screen and (min-width: 656px) {
+@media screen and (min-width: 740px) {
   .post-tags {
     position: absolute;
     bottom: 0;
-    right: 0; } }
+    right: 0; }
+    .post-tags__tag {
+      width: auto; }
+      .post-tags__tag:not(:first-child) {
+        margin-top: initial; } }
