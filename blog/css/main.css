@@ -621,13 +621,15 @@ a.post-excerpt {
 .post-list li {
   cursor: pointer;
   margin-bottom: 0; }
-  .post-list li img {
-    filter: grayscale(100%);
-    margin-top: 10px; }
   .post-list li:hover {
     text-decoration: underline; }
     .post-list li:hover img {
       filter: none; }
+  .post-list li:not(:first-child) {
+    margin-top: 40px; }
+  .post-list li img {
+    filter: grayscale(100%);
+    margin-top: 10px; }
 
 .site-header {
   border-top: none; }
@@ -646,7 +648,8 @@ a.post-excerpt {
 
 .post-footer {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .post-date {
   width: 188px;
@@ -662,8 +665,10 @@ a.post-excerpt {
     color: black; }
 
 .post-tags {
-  float: right;
-  font-size: 10px; }
+  position: absolute;
+  font-size: 10px;
+  bottom: 0;
+  right: 0; }
   .post-tags__tag {
     display: inline-block;
     background: #000;

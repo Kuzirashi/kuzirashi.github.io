@@ -5,15 +5,137 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/po-polsku/</link>
     <atom:link href="http://danielkmak.com/blog/po-polsku/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 May 2017 18:31:50 +0200</pubDate>
-    <lastBuildDate>Sun, 14 May 2017 18:31:50 +0200</lastBuildDate>
+    <pubDate>Sun, 14 May 2017 23:45:43 +0200</pubDate>
+    <lastBuildDate>Sun, 14 May 2017 23:45:43 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Co się stanie kiedy skończą nam się nazwy dla bibliotek JavaScript?</title>
+        <description>&lt;p&gt;Cześć, jestem skromnym programistą, który pracuje z dużą ilością JavaScript’owych frameworków, bibliotek, modułów, addonów, pluginów, przeglądarek, preprocesorów, procesorów, postprocesorów, pluginów do procesorów (&lt;a href=&quot;https://github.com/postcss/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt;), pluginów do przeglądarek (&lt;a href=&quot;https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi&quot;&gt;Ember inspector&lt;/a&gt;), pluginów do bibliotek (&lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt;), addonów do frameworków.&lt;/p&gt;
+
+&lt;p&gt;Czy też uważasz, że codziennie pracujemy z ogromną ilością narzędzi? Jak duży jest twój plik package.json? Czy wiesz co każdy moduł robi w twoim projekcie? Zakładam, że z jakiegoś powodu się w nim znajduje. To jest założenie, a teraz fakt — każdy moduł ma nazwę, którą prawdopodobnie musisz znać. Niektóre nazwy opisują działanie — jak anty-ekologiczne &lt;strong&gt;zabij-drzwo&lt;/strong&gt; (&lt;a href=&quot;https://www.npmjs.com/package/tree-kill&quot;&gt;tree-kill&lt;/a&gt;), a inne nie. Co robi pakiet &lt;a href=&quot;https://www.npmjs.com/package/forever&quot;&gt;forever&lt;/a&gt; można domyślać się w nieskończoność. Niektóre moduły są do siebie podobne jeśli spojrzymy na nazwy, ale robią zupełnie coś innego, na przykład &lt;a href=&quot;https://www.npmjs.com/package/pad-left&quot;&gt;pad-left&lt;/a&gt; i &lt;a href=&quot;https://www.npmjs.com/package/lpad&quot;&gt;lpad&lt;/a&gt;. Zgadniesz bez klikania?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/ducks.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;image-caption&quot;&gt;Europejscy programiści JavaScript uchwyceni podczas próby odnalezienia się w folderze &lt;a href=&quot;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&quot; target=&quot;_blank&quot;&gt;node_modules&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Widzimy więc — jest mnóstwo bibliotek JavaScript, które możesz wykorzystać. Będzie ich jeszcze więcej. Ludzie będą potrzebowali znaleźć dla nich nowe nazwy. Ale programiści nie są nauczycielami języka. Cóż, przynajmniej nie nauczycielami języka angielskiego. No dobra, &lt;a href=&quot;https://www.italki.com/article/281/learning-english-by-learning-programming&quot;&gt;ten programista jest nauczycielem języka angielskiego&lt;/a&gt;. ale to wyjątek. On może nazywać sobie swoją bibliotekę jak mu się podoba, bo ma na to papiery.&lt;/p&gt;
+
+&lt;p&gt;Reszta z nas, zwykłych programistów—śmiertelników, nie zawsze znajduje dobre nazwy. Zamiast tego często używamy losowych słów jako “imion” dla kodu. Jako programiści lubimy niektóre słowa bardziej niż inne. Na przykład, słowo &lt;strong&gt;&lt;a href=&quot;https://www.npmjs.com/package/wrapper&quot;&gt;wrapper&lt;/a&gt;&lt;/strong&gt; (&lt;a href=&quot;https://www.npmjs.com/package/bin-wrapper&quot;&gt;bin-wrapper&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com/package/do-wrapper&quot;&gt;do-wrapper&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com/package/word-wrapper&quot;&gt;word-wrapper&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com/package/events-wrapper&quot;&gt;events-wrapper&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com/package/circuit-breaker-wrapper&quot;&gt;circuit-breaker-wrapper&lt;/a&gt;). Jest nawet &lt;a href=&quot;https://www.npmjs.com/package/rapper&quot;&gt;rapper&lt;/a&gt;! Nie jest to jednak taki raper, jak Eminem. Chodzi bardziej o (opis pakietu):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Konstruuj &lt;strong&gt;wrappery&lt;/strong&gt; wokół endpointów RESTful API (Browser/Angular/Node)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Więc, zasadniczo raper da ci wrapper.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;To jest raper, ale nie taki jak ten &lt;a href=&quot;https://www.npmjs.com/package/rapper&quot;&gt;rapper&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Jak wiemy, JavaScript jest popularnym językiem. Może być więcej niż &lt;strong&gt;100 000 ludzi&lt;/strong&gt; którzy codziennie z niego korzystają. Niezależnie, czy używają go w pracy, czy tylko do robienia kawy (&lt;a href=&quot;https://www.npmjs.com/package/coffee-maker&quot;&gt;coffee-maker&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Więc, JavaScript, i jego wcześniejsza wersja — Java — stały się na tyle dojrzałe, że możesz ich używać do poważniejszych rzeczy niż do programatycznego znajdowania miejsca gdzie zjesz dobre &lt;a href=&quot;https://www.npmjs.com/package/burrito&quot;&gt;burrito&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/burrito.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jest taka gra — wymyśl losowe słowo z języka angielskiego — jeśli istnieje taka biblioteka JavaScript — pijesz. Zagraj z kolegami. Prawdopodobnie jedyną rzeczą, jaką będziesz pamiętać z tego dnia to to, że wyszedłeś z domu ubrany w czarną kurtkę.&lt;/p&gt;
+
+&lt;p&gt;Bibliotek kodu JavaScript będzie coraz więcej… Prędzej czy później skończą nam się dla nich nazwy. Wierzę, że problem może dotknąć nas wcześniej niż ten z &lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2038_problem&quot;&gt;2038&lt;/a&gt;. Dlaczego? Wiemy, że JavaScript to stan umysłu. Programiści mają dzieci. To fakt, nie możesz z tym dyskutować. Dzieci zazwyczaj przejmują stan umysłu od rodziców. To oznacza, że populacja programistów JavaScript może bardzo szybko wzrosnąć.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/meme.jpeg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;image-caption&quot;&gt;JavaScript to więcej niż język, to narkotyk&lt;/p&gt;
+
+&lt;h3 id=&quot;matematyka&quot;&gt;&lt;strong&gt;Matematyka&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Dzisiaj jest około 100 000 programistów JavaScript. Wyprodukowali oni &lt;a href=&quot;http://www.modulecounts.com/&quot;&gt;prawie 500 000 modułów Node&lt;/a&gt; w 21 lat. «JavaScript powstał w 1995» Weźmy 20 dla łatwiejszych obliczeń (skończyłem tylko liceum, nie wymagajcie więcej ode mnie). Jest plus minus &lt;a href=&quot;https://en.oxforddictionaries.com/explore/how-many-words-are-there-in-the-english-language&quot;&gt;200 000 słów w języku angielskim&lt;/a&gt;. Według matematyki już jesteśmy zgubieni (500k &amp;gt; 200k === true). Mimo wszystko załóżmy, że z wyrazów można budować zdania. To da nam więcej opcji.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/maths.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Oto wzory, z których skorzystamy przy dowodzeniu&lt;/p&gt;
+
+&lt;p&gt;Przykład: Weźmy słowo &lt;strong&gt;stupid&lt;/strong&gt; (głupi) i inny wyraz — stworzą razem nazwę naszej biblioteki: &lt;strong&gt;stupid&lt;/strong&gt; &lt;strong&gt;+&lt;/strong&gt; &lt;strong&gt;dictionary&lt;/strong&gt; (słownik) = &lt;a href=&quot;https://www.npmjs.com/package/stupid-dictionary&quot;&gt;&lt;strong&gt;stupid-dictionary&lt;/strong&gt;&lt;/a&gt;. (głupi słownik). Tak, słowniki mogą być głupie. Co jeszcze jest głupie lub frustrujące. Może opóźnienia (&lt;strong&gt;delay&lt;/strong&gt;). Nikt nie lubi czekania i opóźnień. Połączmy: &lt;strong&gt;stupid + delay&lt;/strong&gt;. Proszę bardzo: &lt;a href=&quot;https://www.npmjs.com/package/stupid-delay&quot;&gt;&lt;strong&gt;stupid-delay&lt;/strong&gt;&lt;/a&gt;! O nie! Obie nazwy już zajęte! Czas ucieka. Przepraszam, nazwy uciekają!&lt;/p&gt;
+
+&lt;p&gt;Śpieszmy się! Z powrotem do matematyki! 100 000 programistów, 500 000 modułów, 20 lat, 200 000 słów. Zakładamy, że średnio każdy deweloper ma dwójkę dzieci. To oznacza, że w ciągu 20 najbliższych lat, w 2037 (rok przed problemem roku 2038!!!) te dzieci staną się nowymi programistami JavaScript. To oznacza, że będziemy mieć 100 000 programistów + 200 000 świeżo upieczonych programistów = 300 000 programistów JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/einstein.jpg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;&lt;a href=&quot;https://github.com/nikkimoreaux/Einstein.js/tree/master&quot; target=&quot;_blank&quot;&gt;Einstein.js&lt;/a&gt; — weryfikował obliczenia w artykule&lt;/p&gt;
+
+&lt;p&gt;Podsumowując, (&lt;i&gt;z angielskiego: “wrapping ( ͡° ͜ʖ ͡°) it up“&lt;/i&gt;), takie liczby będziemy mieli w roku 2057:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;300 tysięcy programistów JavaScript&lt;/li&gt;
+  &lt;li&gt;2,5 miliona modułów NPM&lt;/li&gt;
+  &lt;li&gt;200 tysięcy angielskich słów (za mało)&lt;/li&gt;
+  &lt;li&gt;1 ogromny problem z nazwami&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Powinniśmy zająć się tą sprawą, żeby nasze dzieci nie musiały. Nie możemy zostawić ich z tym problemem!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/module-counts.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Wykres, który wskazuje na zbliżającą się apokalipsę&lt;/p&gt;
+
+&lt;h3 id=&quot;potencjalne-rozwiązania&quot;&gt;&lt;strong&gt;Potencjalne rozwiązania&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Możemy zacząć generować hashe lub &lt;a href=&quot;https://en.wikipedia.org/wiki/Universally_unique_identifier&quot; target=&quot;_blank&quot;&gt;UUID&lt;/a&gt; dla nowych frameworków JavaScript. Wyobraź sobie rozmowę dwóch programistów:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul class=&quot;italic clear-list-style&quot;&gt;
+    &lt;li&gt;- Cześć, jestem tu nowy. Który framework jest najlepszy do tworzenia single page applications?&lt;/li&gt;
+    &lt;li&gt;- Witaj, osobiście uważam, że 77c29bcb-6422–462b-bb0f-1ba9fb1430cb jest najlepszy, ale w pracy używamy e778a475–7009–4fbd-9d83–16ebe6ef713d ze względu na jego szybkość i elastyczność. Innymi popularnymi wyborami są: b63e83ce-c6e5–4569-a8dc-b4ad34ffbb7e, c5b8999c-999f-4c8a-811a-d93f77ef5687 and d33df2b9–9325–434a-a507–988cce172cde. Mam nadzieję, że pomogłem!&lt;/li&gt;
+    &lt;li&gt;- Świetnie, mam od czego zacząć! Bardzo dziękuję!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/digits.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Angular 2100?&lt;/p&gt;
+
+&lt;p&gt;2. Możemy używać kodów QR, zdjęć, próbek głosu autorów (swoją drogą sprawdźcie jak ten &lt;a href=&quot;https://lyrebird.ai/demo&quot; target=&quot;_blank&quot;&gt;startup świetnie podrabia głos za pomocą sztucznej inteligencji&lt;/a&gt;), czegoś unikalnego i umieszczać to zamiast nazwy w naszym package.json.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Biblioteki mogłyby być identyfikowane przez ich rapujących autorów&lt;/p&gt;
+
+&lt;p&gt;3. Możemy spróbować ujednolicić wszystko, jak próbowali tego dokonać Rzymianie lub Esperanto. JavaScript’owe &lt;a href=&quot;https://github.com/esperantojs/esperanto&quot;&gt;Esperanto&lt;/a&gt; już od nas odeszło. Teraz mamy wieżę &lt;a href=&quot;http://babeljs.io/&quot; target=&quot;_blank&quot;&gt;Babel&lt;/a&gt;. Wcielenie wszystkich modułów do głównego API Node’a i API przeglądarki to świetny pomysł! Pomyśl, żadnych zależności!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/romans.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Programiści na placu boju&lt;/p&gt;
+
+&lt;p&gt;4. Ludzkość się opamięta, porzuci wszystkie moduły, wróci do &lt;a href=&quot;http://vanilla-js.com/&quot; target=&quot;_blank&quot;&gt;Vanilla JS&lt;/a&gt; i osiągnie zbawienie przez minimalizm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/pilgrim.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Freelancer&lt;/p&gt;
+
+&lt;p&gt;Wybór należy do Ciebie.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Linki:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/blog/programming/javascript/2017/05/06/what-will-happen-when-we-run-out-of-names-for-javascript-frameworks.html&quot;&gt;Artykuł po angielsku.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/what-will-happen-when-we-run-out-of-names-for-javascript-frameworks-6d91c6005d40&quot; target=&quot;_blank&quot;&gt;Artykuł na Medium.com (20 000 wyświetleń, 90 rekomendacji). Publikacja wybrana przez HackerNoon.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 May 2017 16:31:08 +0200</pubDate>
+        <link>http://danielkmak.com/blog/po-polsku/programowanie/javascript/2017/05/14/co-sie-stanie-kiedy-skoncza-nam-sie-nazwy-dla-bibliotek-javascript.html</link>
+        <guid isPermaLink="true">http://danielkmak.com/blog/po-polsku/programowanie/javascript/2017/05/14/co-sie-stanie-kiedy-skoncza-nam-sie-nazwy-dla-bibliotek-javascript.html</guid>
+        
+        
+        <category>programowanie</category>
+        
+        <category>javascript</category>
+        
+      </item>
     
       <item>
         <title>Jak wykorzystałem Stack Overflow i GitHub, żeby dostać wymarzoną pracę przed 19 urodzinami bez studiów</title>
         <description>&lt;p&gt;Cześć, jestem Daniel. Mam 18 lat. Nie mam studiów w IT. W maju napisałem maturę. Mam dwie wymarzone, bardzo dobrze płatne prace. Jestem front-end developerem na pełen etat i zdalnym konsultantem Ember.js w niepełnym wymiarze godzin.&lt;/p&gt;
 
-&lt;p&gt;Nie mam wątpliwości, że obydwie prace dostałem dzięki &lt;strong&gt;Stack Overflow&lt;/strong&gt; i &lt;strong&gt;Githubowi&lt;/strong&gt;. Oto sposób w jaki wykorzystałem te świetne strony, żeby zdobyć:&lt;/p&gt;
+&lt;p&gt;Nie mam wątpliwości, że obydwie prace dostałem dzięki &lt;strong&gt;Stack Overflow&lt;/strong&gt; i &lt;strong&gt;GitHub’owi&lt;/strong&gt;. Oto sposób w jaki wykorzystałem te świetne strony, żeby zdobyć:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;reputację szanowaną przez pracodawców&lt;/li&gt;
@@ -38,7 +160,7 @@ Możesz wykorzystać to jako dowód, że znasz technologię, język, framework
 
 &lt;/li&gt;
 &lt;li&gt;
-Ludzie widzą, że piszesz dobry kod, że jesteś w stanie go dobrze zaprojektować, znasz [OOP], piszesz [SOLID]ny, czysty kod. Dzięki temu rekruterzy mają co pokazać zespołowi developerów, a oni zdecydują czy chcą Cię sprawdzić
+Ludzie widzą, że piszesz dobry kod, że jesteś w stanie go dobrze zaprojektować, znasz &lt;a href=&quot;https://en.wikipedia.org/wiki/Object-oriented_programming&quot; target=&quot;_blank&quot;&gt;OOP&lt;/a&gt;, piszesz &lt;a href=&quot;https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)&quot; target=&quot;_blank&quot;&gt;SOLID&lt;/a&gt;ny, czysty kod. Dzięki temu rekruterzy mają co pokazać zespołowi developerów, a oni zdecydują czy chcą Cię sprawdzić
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -46,17 +168,17 @@ Znasz co najmniej podstawy Gita — w końcu zarządzasz repozytoriami na Gi
 
 &lt;/li&gt;
 &lt;li&gt;
-Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia, które na podstawie tego w jakich językach masz repozytoria na GitHub’ie pokazują im odnośnie jakich stanowisk mogą się z Tobą skontaktować. Otrzymałem w ten sposób około 10 maili. Więc, jeśli masz repozytorium w C\# jest możliwe, że wkrótce otrzymasz ofertę stanowiska C\#. Oczywiście, mail od rekrutera to początek drogi, ale rozmowy się rozpoczynają. Ty natomiast jesteś w sytuacji, w której to oni zgłosili się do Ciebie, a nie odwrotnie. Uwierz mi, że to dużo pomaga.
+Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia, które na podstawie tego w jakich językach masz repozytoria na GitHub’ie pokazują im odnośnie jakich stanowisk mogą się z Tobą skontaktować. Otrzymałem w ten sposób około 10 maili. Więc, jeśli masz repozytorium w C# jest możliwe, że wkrótce otrzymasz ofertę stanowiska C#. Oczywiście, mail od rekrutera to początek drogi, ale rozmowy się rozpoczynają. Ty natomiast jesteś w sytuacji, w której to oni zgłosili się do Ciebie, a nie odwrotnie. Uwierz mi, że to dużo pomaga.
 
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Robiłem to wszystko. Dostałem te oferty. Aczkolwiek nie dla wszystkich moich projektów – część z nich została stworzona prywatnie na GitLabie. Miałem nadzieję, że na siebie zarobią, ale nie ukończyłem ich. Z perspektywy czasu uważam, że one też powinny się znaleźć na GitHubie. Jeśli wrzucę je jako open-source z minimalną ilością dokumentacji na temat ich działania oraz zdjęciami, wtedy staną się częścią mojego portfolio.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/scrolling.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/scrolling.gif&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Przyczyniłem się też do rozwoju różnych, głównie powiązanych z Emberem repozytoriów. Czasami dodawałem dokumentację, a czasami kod. Dobrze móc powiedzieć na rozmowie kwalifikacyjnej, że wrzuciłeś swoją cegiełkę do dużego projektu. W moim przypadku były to małe zmiany.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/githubcommits.png&quot; alt=&quot;githubcommits&quot; class=&quot;aligncenter size-full wp-image-3164&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/githubcommits.png 800w, https://webmastah.pl/wp-content/uploads/2016/08/githubcommits-640x277.png 640w, https://webmastah.pl/wp-content/uploads/2016/08/githubcommits-768x332.png 768w&quot; width=&quot;800&quot; height=&quot;346&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/githubcommits.png&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;stack-overflow&quot;&gt;Stack Overflow&lt;/h2&gt;
 
@@ -64,7 +186,7 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
 
 &lt;p&gt;Skąd wiedziałem? Uwielbiam kulturę open-source. Trafiłem na artykuły, w których przeczytałem, że pracodawcy mierzą Twoje umiejętności przez pryzmat Twojego konta na Stack Overflow. W rzeczywistości nie jest aż tak różowo. Ale, kiedy byłem w trakcie rozmów z moją obecną firmą, w sprawie pracy na etat, prawie 10 tysięcy reputacji (jeszcze w czerwcu), połączone z moim wiekiem były wystarczające, żeby wywołać efekt wow na twarzy pracodawcy. Zdecydowali się na mnie postawić. Dzięki, Stack Overflow!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow.png&quot; alt=&quot;stackoverflow&quot; class=&quot;aligncenter size-full wp-image-3165&quot; width=&quot;219&quot; height=&quot;284&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/stackoverflow.png&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Tworzyłem rzeczy w najróżniejszych językach i frameworkach. Lista serwerów gamingowych w ASP.NET i Mono, gra tower defense w XNA, serwer w Javie, klient C# WPF. Jedyną rzeczą, która łączy moje zainteresowania to prawdopodobnie wykorzystywanie sieci do przesyłania lub odbierania danych.&lt;/p&gt;
 
@@ -78,7 +200,7 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
 
 &lt;p&gt;Po pewnym czasie byłem najlepszym odpowiadającym na przestrzeni ostatnich 30 dni. Miałem rozpoznawalność, miałem maile z ofertami pracy. Jedną z nich była oferta zdalnej pracy w niepełnym wymiarze godzin jako konsultant Ember.js. Dostałem tą ofertę, ponieważ pomogłem osobie na Stack Overflow w tagu Embera. Prawdziwa historia. Oto dowód:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/dowod.png&quot; alt=&quot;dowod&quot; class=&quot;aligncenter size-full wp-image-3166&quot; sizes=&quot;(max-width: 689px) 100vw, 689px&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/dowod.png 689w, https://webmastah.pl/wp-content/uploads/2016/08/dowod-640x45.png 640w&quot; width=&quot;689&quot; height=&quot;48&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/email.png&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Później miałem rozmowę techniczną na temat mojej wiedzy o Emberze. Dałem radę. Jestem konsultantem Ember.js dla Techolution od Listopada 2015 roku.&lt;/p&gt;
 
@@ -89,11 +211,18 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
   &lt;li&gt;Pracodawcy mogą Cię znaleźć i napisać do Ciebie, do tej pory 2 pracodawców się do mnie zwróciło na tej platformie, obie oferty było bardzo atrakcyjne&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow2.png&quot; alt=&quot;stackoverflow2&quot; class=&quot;aligncenter size-full wp-image-3167&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow2.png 731w, https://webmastah.pl/wp-content/uploads/2016/08/stackoverflow2-64&quot; width=&quot;731&quot; height=&quot;241&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/stackoverflow2.png&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;podsumowanie&quot;&gt;Podsumowanie&lt;/h2&gt;
 
 &lt;p&gt;Wierz w siebie i pracuj ciężko. Dokumentuj swoje umiejętności na GitHubie i Stack Overflow. Otwieraj pull requesty do projektów open source. Twórz własne repozytoria open source. Spraw, żeby ludzie Cię poznali. Pokaż im, że żyjesz gdzieś i jesteś w stanie robić wspaniałe rzeczy. Pokaż im, że masz pasję. W IT, rekruterzy ciężko pracują każdego dnia, aby znaleźć ludzi takich jak Ty. Spraw, żeby ich praca była łatwiejsza.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Linki:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wykop.pl/link/3307033/jak-wykorzystalem-stack-overflow-i-github-zeby-dostac-wymarzona-prace/&quot; target=&quot;_blank&quot;&gt;Artykuł na Wykop.pl, który trafił na stronę główną z 40 000 wyświetleń, 568 rekomendacjami. Opublikowany dzięki uprzejmości WebMastah.pl.&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 14 Aug 2016 16:31:08 +0200</pubDate>
