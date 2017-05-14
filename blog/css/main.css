@@ -568,6 +568,12 @@ a.post-link {
         .dark-theme .site-nav .trigger__page-link {
           color: black;
           background: white; } }
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background: #000;
+    border-radius: 0; }
+    .dark-theme .site-nav {
+      background: white; } }
 @media screen and (min-width: 460px) {
   #mce-EMAIL {
     width: 245px; } }
@@ -606,7 +612,36 @@ article {
   display: block;
   margin: auto; }
 
-.post-excerpt {
+a.post-excerpt {
   font-size: 14px;
   font-style: italic;
-  opacity: 0.6; }
+  opacity: 0.6;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: inherit;
+  cursor: pointer;
+  display: block; }
+
+.post-thumbnail {
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding-right: 20px;
+  padding-bottom: 10px; }
+  .post-thumbnail:hover {
+    filter: none; }
+
+.post-list li {
+  cursor: pointer;
+  margin-bottom: 0; }
+  .post-list li img {
+    filter: grayscale(100%); }
+  .post-list li:hover {
+    text-decoration: underline; }
+    .post-list li:hover img {
+      filter: none; }
+
+.site-header {
+  border-top: none; }

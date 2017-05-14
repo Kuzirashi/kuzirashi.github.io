@@ -5,8 +5,8 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/</link>
     <atom:link href="http://danielkmak.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 May 2017 13:06:08 +0200</pubDate>
-    <lastBuildDate>Sun, 14 May 2017 13:06:08 +0200</lastBuildDate>
+    <pubDate>Sun, 14 May 2017 14:17:09 +0200</pubDate>
+    <lastBuildDate>Sun, 14 May 2017 14:17:09 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;So basically rapper will give you wrapper.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*OpiDzdo11AWoE7smwyJ8cQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p class=&quot;image-caption&quot;&gt;It’s not the kind of rapper you’d expect from &lt;a href=&quot;https://www.npmjs.com/package/rapper&quot;&gt;rapper&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-problem&quot;&gt;&lt;strong&gt;The problem&lt;/strong&gt;&lt;/h3&gt;
@@ -38,13 +38,13 @@
 
 &lt;p&gt;So, JavaScript and its earlier version — Java are already becoming mature enough to use it for more than just programmatically finding good place to eat &lt;a href=&quot;https://www.npmjs.com/package/burrito&quot;&gt;burrito&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*aO4g_YQRvU0bCbTzn9ttiA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/burrito.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There’s this game — think of any random word from English language — if there’s such JavaScript library — you drink. If you don’t want to get drunk too fast, stay at home.&lt;/p&gt;
 
 &lt;p&gt;There’s going to be more and more libraries and we’ll sooner or later run out of names for them. I believe it could hit us earlier than &lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2038_problem&quot;&gt;year 2038 problem&lt;/a&gt;. Why? We know JavaScript is state of mind. Programmers have kids. It’s a fact, you can’t argue. Kids usually acquire state of mind from their parents. Which means population of JavaScript developers can grow very fast.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*wopdhcHJqwVp4UMzOAYa3A.jpeg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/meme.jpeg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;image-caption&quot;&gt;JavaScript is more than a language, it’s a drug&lt;/p&gt;
 
@@ -85,7 +85,7 @@
 
 &lt;p&gt;2. We can use QR codes, images, author’s voice sample, something unique and put it instead of name in our package.json.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*OpiDzdo11AWoE7smwyJ8cQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;image-caption&quot;&gt;Libraries could be identified by their authors rapping&lt;/p&gt;
 
