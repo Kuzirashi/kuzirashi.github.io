@@ -646,3 +646,6 @@ a.post-excerpt {
 
 .site-header {
   border-top: none; }
+
+.site-nav .page-link:not(:last-child) {
+  margin-right: 0px; }
