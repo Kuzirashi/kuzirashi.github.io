@@ -5,8 +5,8 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/po-polsku/</link>
     <atom:link href="http://danielkmak.com/blog/po-polsku/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 May 2017 14:56:14 +0200</pubDate>
-    <lastBuildDate>Sun, 14 May 2017 14:56:14 +0200</lastBuildDate>
+    <pubDate>Sun, 14 May 2017 15:21:27 +0200</pubDate>
+    <lastBuildDate>Sun, 14 May 2017 15:21:27 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;Potrzebujesz mieć coś w ręce kiedy stajesz oko w oko z pracodawcą. Wymagana jest od Ciebie znajomość konkretnego języka, frameworka, ale równie &lt;strong&gt;ważne&lt;/strong&gt; jest, aby przekonać firmę, że &lt;strong&gt;jedynym miejscem dla spaghetti w Twoim życiu jest Twoja dieta&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-1024x725.jpg&quot; alt=&quot;spaghetti&quot; class=&quot;aligncenter size-large wp-image-3159&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; srcset=&quot;https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-1024x725.jpg 1024w, https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-640x453.jpg 640w, https://webmastah.pl/wp-content/uploads/2016/08/spaghetti-768x544.jpg 768w, https://webmastah.pl/wp-content/uploads/2016/08/spaghetti.jpg 1400w&quot; width=&quot;800&quot; height=&quot;566&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-how-i-used/spaghetti.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;GitHub jest miejscem gdzie możesz zaprezentować swój kod. Na przykład, kiedy uczysz się nowej technologii, załóż repozytorium z małym prototypem (“&lt;a href=&quot;https://en.wikipedia.org/wiki/Proof_of_concept&quot;&gt;proof of concept&lt;/a&gt;”) tego jak można wykorzystać ową technologię. Wrzuć to na GitHub’a. To podejście ma 4 plusy:&lt;/p&gt;
 

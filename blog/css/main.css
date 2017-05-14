@@ -637,7 +637,8 @@ a.post-excerpt {
   cursor: pointer;
   margin-bottom: 0; }
   .post-list li img {
-    filter: grayscale(100%); }
+    filter: grayscale(100%);
+    margin-top: 10px; }
   .post-list li:hover {
     text-decoration: underline; }
     .post-list li:hover img {
