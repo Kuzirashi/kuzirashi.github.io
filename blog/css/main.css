@@ -570,3 +570,18 @@ a.post-link {
 
 .page-content {
   position: relative; }
+
+article {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+
+.image-caption {
+  color: #666666;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center; }
+  .dark-theme .image-caption {
+    color: #999999; }
+
+.image_centered {
+  display: block;
+  margin: auto; }

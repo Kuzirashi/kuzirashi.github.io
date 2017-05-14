@@ -5,8 +5,8 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/</link>
     <atom:link href="http://danielkmak.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 May 2017 11:00:37 +0200</pubDate>
-    <lastBuildDate>Sun, 14 May 2017 11:00:37 +0200</lastBuildDate>
+    <pubDate>Sun, 14 May 2017 11:24:16 +0200</pubDate>
+    <lastBuildDate>Sun, 14 May 2017 11:24:16 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/ducks.jpeg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;JavaScript developers pictured trying to find their way around in node_modules directory :(&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;JavaScript developers pictured trying to find their way around in node_modules directory :(&lt;/p&gt;
 
 &lt;p&gt;So, we see — there’s a lot of JavaScript third party code that you can use in your code. And it’s going to be more and more of that. And people will need to find new names. Programmers are not necessairly language teachers. Well, at least human language teachers. Well, umm, okay, &lt;a href=&quot;https://www.italki.com/article/281/learning-english-by-learning-programming&quot;&gt;this guy is&lt;/a&gt;. So, he can name his library as he likes, because he’s entitled to do that.&lt;/p&gt;
 
@@ -29,10 +29,10 @@
 
 &lt;p&gt;So basically rapper will give you wrapper.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*OpiDzdo11AWoE7smwyJ8cQ.jpeg&quot; alt=&quot;&quot; /&gt;
-It’s not the kind of rapper you’d expect from &lt;a href=&quot;https://www.npmjs.com/package/rapper&quot;&gt;rapper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*OpiDzdo11AWoE7smwyJ8cQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;It’s not the kind of rapper you’d expect from &lt;a href=&quot;https://www.npmjs.com/package/rapper&quot;&gt;rapper&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;the-problem&quot;&gt;The problem&lt;/h3&gt;
+&lt;h3 id=&quot;the-problem&quot;&gt;&lt;strong&gt;The problem&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;As we know JavaScript is a popular language. There might be more than &lt;strong&gt;100 000 people&lt;/strong&gt; who use it on daily basis. Whether they use it in their job or just to make coffee (&lt;a href=&quot;https://www.npmjs.com/package/coffee-maker&quot;&gt;coffee-maker&lt;/a&gt;). It has a place in daily developer (and computer user) life.&lt;/p&gt;
 
@@ -44,9 +44,10 @@ It’s not the kind of rapper you’d expect from &lt;a href=&quot;https://www.n
 
 &lt;p&gt;There’s going to be more and more libraries and we’ll sooner or later run out of names for them. I believe it could hit us earlier than &lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2038_problem&quot;&gt;year 2038 problem&lt;/a&gt;. Why? We know JavaScript is state of mind. Programmers have kids. It’s a fact, you can’t argue. Kids usually acquire state of mind from their parents. Which means population of JavaScript developers can grow very fast.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*wopdhcHJqwVp4UMzOAYa3A.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*wopdhcHJqwVp4UMzOAYa3A.jpeg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;JavaScript is more than a language, it’s a drug&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;JavaScript is more than a language, it’s a drug&lt;/p&gt;
+
 &lt;h3 id=&quot;the-maths&quot;&gt;&lt;strong&gt;The Maths&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;Today there are 100k JavaScript developers. They’ve managed to produce &lt;a href=&quot;http://www.modulecounts.com/&quot;&gt;almost 500 000 node modules&lt;/a&gt; in 21 years (JavaScript was born in 1995, shit, older than me). We’ll take 20 for simpler maths (I’ve finished only high school, don’t require more from me). There’s like &lt;a href=&quot;https://en.oxforddictionaries.com/explore/how-many-words-are-there-in-the-english-language&quot;&gt;200 000 words in English&lt;/a&gt;. According to maths we’re already doomed (500k &amp;gt; 200k === true). But let’s assume you can build sentences from words — this gives us more options.&lt;/p&gt;
