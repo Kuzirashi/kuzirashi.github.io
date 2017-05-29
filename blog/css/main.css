@@ -580,11 +580,6 @@ a.post-link {
 .page-content {
   position: relative; }
 
-article {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased; }
-
 .image-caption {
   color: #666666;
   font-size: 14px;
