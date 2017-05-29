@@ -597,9 +597,14 @@ a.post-excerpt {
   .post-list li {
     cursor: pointer;
     margin-bottom: 0; }
+    .post-list li:hover {
+      text-decoration: underline; }
+      .post-list li:hover img {
+        filter: none; }
     .post-list li:not(:first-child) {
       margin-top: 40px; }
     .post-list li img {
+      filter: grayscale(100%);
       margin-top: 10px; }
 
 .site-header {
@@ -926,10 +931,3 @@ hr {
     .post-list li .post-thumbnail {
       margin: 0;
       padding-right: 0; } }
-@media screen and (min-width: 470px) {
-  .post-list li:hover {
-    text-decoration: underline; }
-    .post-list li:hover img {
-      filter: none; }
-  .post-list li img {
-    filter: grayscale(100%); } }
