@@ -283,6 +283,32 @@
 </div>
     <br/>
 
+    <script>
+        var StaticShareButtons = {
+            facebookButton: document.querySelector('.share-button-facebook'),
+
+            init: function(){
+                this.injectScript('http://graph.facebook.com/?id='+
+                    escape(this.facebookButton.dataset.shareUrl) +'&callback=StaticShareButtons.processFacebook');
+            },
+
+            injectScript: function(url){
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = url;
+                document.body.appendChild(script);
+            },
+
+            processFacebook: function(data){
+                if (data.share){
+                    this.facebookButton.querySelector('.count').innerHTML = data.share.share_count;
+                }
+            }
+        }
+
+        StaticShareButtons.init();
+    </script>
+
   
     
 
@@ -371,30 +397,6 @@
             document.querySelector('#mc-embedded-subscribe').addEventListener('click', function (event) {
                 ga('send', 'event', 'NewsletterWidget', 'SubscribeInNewTab', document.querySelector('#mce-EMAIL').value);
             });
-
-            var StaticShareButtons = {
-                facebookButton: document.querySelector('.share-button-facebook'),
-
-                init: function(){
-                    this.injectScript('http://graph.facebook.com/?id='+
-                        escape(this.facebookButton.dataset.shareUrl) +'&callback=StaticShareButtons.processFacebook');
-                },
-
-                injectScript: function(url){
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = url;
-                    document.body.appendChild(script);
-                },
-
-                processFacebook: function(data){
-                    if (data.share){
-                        this.facebookButton.querySelector('.count').innerHTML = data.share.share_count;
-                    }
-                }
-            }
-
-            StaticShareButtons.init();
         </script>
     </div>
 </footer>
