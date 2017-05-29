@@ -2,13 +2,34 @@
 <html lang="po-polsku">
 
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .site-nav .menu-icon {
+            display: none;
+        }
 
-  <link rel="stylesheet" href="/blog/css/main.css">
-  <link rel="canonical" href="http://danielkmak.com/blog/po-polsku/programowanie/javascript/2017/05/14/co-sie-stanie-kiedy-skoncza-nam-sie-nazwy-dla-bibliotek-javascript.html">
-  <link rel="alternate" type="application/rss+xml" title="Daniel Kmak blog" href="http://danielkmak.com/blog/po-polsku/feed.xml">
+        @media screen and (max-width: 600px) {
+            .site-nav .menu-icon {
+                display: block;
+                float: right;
+                width: 36px;
+                height: 26px;
+                line-height: 0;
+                padding-top: 10px;
+                text-align: center;
+            }
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="canonical" href="http://danielkmak.com/blog/po-polsku/programowanie/javascript/2017/05/14/co-sie-stanie-kiedy-skoncza-nam-sie-nazwy-dla-bibliotek-javascript.html">
+    <link rel="alternate" type="application/rss+xml" title="Daniel Kmak blog" href="http://danielkmak.com/blog/po-polsku/feed.xml">
 
     <!-- Begin Jekyll SEO tag v2.0.0 -->
 <title>Co się stanie kiedy skończą nam się nazwy dla bibliotek JavaScript? - Daniel Kmak blog</title>
@@ -312,6 +333,23 @@
             </form>
             </div>
         </div>
+
+        <noscript id="deferred-styles">
+            <link rel="stylesheet" href="/blog/css/main.css">
+        </noscript>
+        <script>
+        var loadDeferredStyles = function() {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+        </script>
 
         <div id="fb-root"></div>
 
