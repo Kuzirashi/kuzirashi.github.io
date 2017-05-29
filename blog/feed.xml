@@ -5,8 +5,8 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/</link>
     <atom:link href="http://danielkmak.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 May 2017 23:42:23 +0200</pubDate>
-    <lastBuildDate>Mon, 29 May 2017 23:42:23 +0200</lastBuildDate>
+    <pubDate>Mon, 29 May 2017 23:52:54 +0200</pubDate>
+    <lastBuildDate>Mon, 29 May 2017 23:52:54 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -130,7 +130,7 @@
 
 &lt;p&gt;Isn’t it a lot of tools that we need to work with on daily basis? How big is your package.json file? Do you know what each dependency is doing? I’ve assumed here that all of them have a purpose in your project. So this is an assumption, and here’s the fact — each of them has name, which you probably need to remember. Some describe its usage — like anti-ecological &lt;a href=&quot;https://www.npmjs.com/package/tree-kill&quot;&gt;tree-kill&lt;/a&gt;, some not. It could take forever to guess what &lt;a href=&quot;https://www.npmjs.com/package/forever&quot;&gt;forever&lt;/a&gt; is doing. Some names are similar but serve different purpose, like &lt;a href=&quot;https://www.npmjs.com/package/pad-left&quot;&gt;pad-left&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.com/package/lpad&quot;&gt;lpad&lt;/a&gt;. Can you guess without clicking?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/ducks.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/ducks.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;image-caption&quot;&gt;JavaScript developers pictured trying to find their way around in node_modules directory :(&lt;/p&gt;
 
@@ -144,7 +144,7 @@
 
 &lt;p&gt;So basically rapper will give you wrapper.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p class=&quot;image-caption&quot;&gt;It’s not the kind of rapper you’d expect from &lt;a href=&quot;https://www.npmjs.com/package/rapper&quot;&gt;rapper&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-problem&quot;&gt;&lt;strong&gt;The problem&lt;/strong&gt;&lt;/h3&gt;
@@ -159,7 +159,7 @@
 
 &lt;p&gt;There’s going to be more and more libraries and we’ll sooner or later run out of names for them. I believe it could hit us earlier than &lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2038_problem&quot;&gt;year 2038 problem&lt;/a&gt;. Why? We know JavaScript is state of mind. Programmers have kids. It’s a fact, you can’t argue. Kids usually acquire state of mind from their parents. Which means population of JavaScript developers can grow very fast.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/meme.jpeg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/meme.jpg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;image-caption&quot;&gt;JavaScript is more than a language, it’s a drug&lt;/p&gt;
 
@@ -167,7 +167,7 @@
 
 &lt;p&gt;Today there are 100k JavaScript developers. They’ve managed to produce &lt;a href=&quot;http://www.modulecounts.com/&quot;&gt;almost 500 000 node modules&lt;/a&gt; in 21 years (JavaScript was born in 1995, shit, older than me). We’ll take 20 for simpler maths (I’ve finished only high school, don’t require more from me). There’s like &lt;a href=&quot;https://en.oxforddictionaries.com/explore/how-many-words-are-there-in-the-english-language&quot;&gt;200 000 words in English&lt;/a&gt;. According to maths we’re already doomed (500k &amp;gt; 200k === true). But let’s assume you can build sentences from words — this gives us more options.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/maths.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/maths.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Example: take &lt;strong&gt;stupid&lt;/strong&gt; and other words and it’ll make your library name. Like: &lt;strong&gt;stupid&lt;/strong&gt; &lt;strong&gt;+&lt;/strong&gt; &lt;strong&gt;dictionary&lt;/strong&gt; = &lt;a href=&quot;https://www.npmjs.com/package/stupid-dictionary&quot;&gt;&lt;strong&gt;stupid-dictionary&lt;/strong&gt;&lt;/a&gt;. Yeah, dictionary can totally be stupid. What’s also stupid or frustrating. Maybe &lt;strong&gt;delay&lt;/strong&gt;. Yeah, why not, waiting and delays definitely suck. Let’s combine &lt;strong&gt;stupid + delay&lt;/strong&gt;. Here we go, &lt;a href=&quot;https://www.npmjs.com/package/stupid-delay&quot;&gt;&lt;strong&gt;stupid-delay&lt;/strong&gt;&lt;/a&gt;! Oh, no, both already taken! Time is running away. Pardon, names are running away!&lt;/p&gt;
 
@@ -197,21 +197,21 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/digits.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/digits.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;2. We can use QR codes, images, author’s voice sample, something unique and put it instead of name in our package.json.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/rapper.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;image-caption&quot;&gt;Libraries could be identified by their authors rapping&lt;/p&gt;
 
 &lt;p&gt;3. We can try to unify everything as Romans tried or Esperanto. Merging every module out there to Node API or browser API seems like a good idea for a start. We could get rid of all dependencies!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/romans.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/romans.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;4. Humanity will repent, abandon all modules, go back to Vanilla JS and salvation to JavaScript will be granted through minimalism.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/pilgrim.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-js-fws/pilgrim.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The choice is yours.&lt;/p&gt;
 </description>
