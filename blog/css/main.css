@@ -559,15 +559,7 @@ a.post-link {
       position: relative;
       height: 30px;
       top: 50%;
-      transform: translateY(-50%); }
-      .site-nav .trigger__page-link {
-        color: white;
-        padding: 10px;
-        font-size: 12px;
-        background: #000; }
-        .dark-theme .site-nav .trigger__page-link {
-          color: black;
-          background: white; } }
+      transform: translateY(-50%); } }
 @media screen and (max-width: 600px) {
   .site-nav {
     background: #000;
@@ -626,16 +618,8 @@ a.post-excerpt {
     margin-top: 10px; }
 
 .site-header {
-  border-top: none; }
-
-.site-nav {
+  border-top: none;
   z-index: 1; }
-  .site-nav .page-link {
-    color: white; }
-    .site-nav .page-link:not(:last-child) {
-      margin-right: 0px; }
-    .dark-theme .site-nav .page-link {
-      color: black; }
 
 .italic {
   font-style: italic; }
@@ -864,3 +848,57 @@ hr {
       text-align: center; }
     .share-buttons .share-button {
       margin-left: 10px; } }
+.read-further {
+  display: block; }
+  .read-further a {
+    display: block;
+    margin-top: 10px; }
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent; }
+
+.active-option {
+  cursor: pointer; }
+  .active-option div {
+    display: inline-block;
+    vertical-align: middle; }
+
+.language-selector {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 56px;
+  margin-bottom: 0;
+  height: 57px;
+  user-select: none;
+  width: 100px;
+  text-align: center; }
+  .language-selector.open .active-option {
+    border: 1px solid #e8e8e8;
+    border-top: none; }
+  .language-selector.open .caret {
+    display: none; }
+  .language-selector.open .options {
+    display: block;
+    color: black;
+    background: white;
+    position: absolute;
+    top: 40px;
+    width: 98px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    border-top: none; }
+  .language-selector.open .page-link {
+    color: black; }
+    .language-selector.open .page-link:hover {
+      text-decoration: none;
+      font-style: italic; }
+  .language-selector .options {
+    display: none; }
