@@ -333,8 +333,13 @@
 
         window.addEventListener('load', function () {
             StaticShareButtons.init();  
-        })
 
+            document.querySelectorAll('.share-button').forEach(function (shareButton) {
+                shareButton.addEventListener('click', function () {
+                    ga('send', 'event', 'ShareButton', 'Clicked', shareButton.classList[1].replace('share-button-', ''));
+                });
+            });
+        });
     </script>
 
   
