@@ -693,6 +693,13 @@ a.post-excerpt {
     height: 100%;
     position: absolute;
     z-index: 1; }
+  .footer-right header {
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 23px;
+    margin-top: 10px; }
 
 .pirate-background {
   background: url(../assets/images/pirates.jpg);
@@ -745,14 +752,6 @@ hr {
   border: none;
   background-color: black;
   margin-top: 50px; }
-
-.footer-right header {
-  color: white;
-  text-align: center;
-  width: 100%;
-  display: block;
-  font-size: 31px;
-  margin-top: 10px; }
 
 .share-button-container {
   text-align: center;
@@ -915,6 +914,12 @@ hr {
   .footer-sub-links {
     right: 0;
     width: auto; } }
+@media screen and (min-width: 924px) {
+  .footer-right header {
+    font-size: 28px; } }
+@media screen and (min-width: 980px) {
+  .footer-right header {
+    font-size: 31px; } }
 @media screen and (max-width: 470px) {
   .post-date {
     width: 100%; }
