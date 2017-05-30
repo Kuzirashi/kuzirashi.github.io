@@ -283,6 +283,18 @@ Isn’t it a lot of tools that we need to work with on daily basis? How big is y
                     languageSelector.classList.add('open');
                 }
             });
+
+            setTimeout(function () {
+                ga('send', 'event', 'SessionTime', 'Lasts', '5 minutes', {
+                    nonInteraction: true
+                });
+            }, 1000 * 60 * 5);
+
+            setTimeout(function () {
+                ga('send', 'event', 'SessionTime', 'Lasts', '10 minutes', {
+                    nonInteraction: true
+                });
+            }, 1000 * 60 * 10);
         </script>
     </div>
 </footer>

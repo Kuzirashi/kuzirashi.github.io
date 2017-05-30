@@ -333,7 +333,6 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
             }
         }
 
-
         window.addEventListener('load', function () {
             StaticShareButtons.init();  
 
@@ -451,6 +450,18 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
                     languageSelector.classList.add('open');
                 }
             });
+
+            setTimeout(function () {
+                ga('send', 'event', 'SessionTime', 'Lasts', '5 minutes', {
+                    nonInteraction: true
+                });
+            }, 1000 * 60 * 5);
+
+            setTimeout(function () {
+                ga('send', 'event', 'SessionTime', 'Lasts', '10 minutes', {
+                    nonInteraction: true
+                });
+            }, 1000 * 60 * 10);
         </script>
     </div>
 </footer>

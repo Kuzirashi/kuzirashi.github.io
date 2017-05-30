@@ -296,6 +296,18 @@ Nie mam wątpliwości, że obydwie prace dostałem dzięki Stack Overflow i GitH
                     languageSelector.classList.add('open');
                 }
             });
+
+            setTimeout(function () {
+                ga('send', 'event', 'SessionTime', 'Lasts', '5 minutes', {
+                    nonInteraction: true
+                });
+            }, 1000 * 60 * 5);
+
+            setTimeout(function () {
+                ga('send', 'event', 'SessionTime', 'Lasts', '10 minutes', {
+                    nonInteraction: true
+                });
+            }, 1000 * 60 * 10);
         </script>
     </div>
 </footer>
