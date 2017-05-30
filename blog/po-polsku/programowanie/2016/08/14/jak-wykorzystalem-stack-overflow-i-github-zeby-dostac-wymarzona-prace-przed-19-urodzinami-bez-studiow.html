@@ -271,16 +271,52 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
             </a>
         </div>
     </div>
+
+    <div class="share-button share-button-reddit" data-share-url="http://danielkmak.com/blog/po-polsku/programowanie/2016/08/14/jak-wykorzystalem-stack-overflow-i-github-zeby-dostac-wymarzona-prace-przed-19-urodzinami-bez-studiow.html">
+        <div class="box">
+
+            <a href='http://reddit.com/submit?url=http://danielkmak.com/blog/po-polsku/programowanie/2016/08/14/jak-wykorzystalem-stack-overflow-i-github-zeby-dostac-wymarzona-prace-przed-19-urodzinami-bez-studiow.html&title=Jak wykorzystałem Stack Overflow i GitHub, żeby dostać wymarzoną pracę przed 19 urodzinami bez studiów&via=danielkmakcom' target="_blank" class='button'>
+                <span class='share'><img src="https://www.redditstatic.com/spreddit8.gif"> Udostępnij</span>
+                <span class='count'>0</span>
+            </a>
+        </div>
+    </div>
 </div>
     <br/>
 
     <script>
         var StaticShareButtons = {
             facebookButton: document.querySelector('.share-button-facebook'),
+            redditButton: document.querySelector('.share-button-reddit'),
 
             init: function(){
                 this.injectScript('http://graph.facebook.com/?id='+
                     escape(this.facebookButton.dataset.shareUrl) +'&callback=StaticShareButtons.processFacebook');
+                
+                var xmlhttp = new XMLHttpRequest();
+
+                var self = this;
+
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+                        if (xmlhttp.status == 200) {
+                            var redditLinkInfo = JSON.parse(xmlhttp.responseText);
+
+                            var ups = 0;
+
+                            redditLinkInfo.data.children.forEach(function (child) {
+                                if (child.data && child.data.ups) {
+                                    ups += child.data.ups;
+                                }
+                            });
+
+                            self.redditButton.querySelector('.count').innerHTML = ups;
+                        }
+                    }
+                };
+
+                xmlhttp.open("GET", "https://www.reddit.com/api/info.json?url=http://danielkmak.com/blog/programming/storytelling/novel/2017/05/29/50-shades-of-programming-what-if-christian-grey-were-a-programmer.html", true);
+                xmlhttp.send();
             },
 
             injectScript: function(url){
@@ -297,7 +333,11 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
             }
         }
 
-        StaticShareButtons.init();
+
+        window.addEventListener('load', function () {
+            StaticShareButtons.init();  
+        })
+
     </script>
 
   

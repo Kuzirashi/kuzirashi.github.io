@@ -829,14 +829,22 @@ hr {
 
 .share-buttons {
   left: 0;
-  bottom: 20px;
+  bottom: 44px;
   overflow: hidden; }
   .share-buttons header {
     padding-bottom: 10px;
     margin-top: 20px; }
+  .share-buttons .share-button {
+    position: relative; }
   .share-buttons .share-button + .share-button {
     margin-top: 8px;
     margin-left: 10px; }
+  .share-buttons .share-button-reddit .share {
+    background: #e0e0e0; }
+  .share-buttons .share-button-reddit img {
+    width: 76px;
+    position: absolute;
+    left: 0; }
 
 .fb-icon {
   background: url(../assets/images/fb-100.png); }
