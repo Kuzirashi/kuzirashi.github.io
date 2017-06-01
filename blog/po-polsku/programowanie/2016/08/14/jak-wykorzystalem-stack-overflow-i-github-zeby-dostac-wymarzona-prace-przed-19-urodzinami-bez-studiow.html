@@ -315,7 +315,7 @@ Rekruterzy wysyłają do Ciebie maile wykorzystując zautomatyzowane narzędzia,
                     }
                 };
 
-                xmlhttp.open("GET", "https://www.reddit.com/api/info.json?url=http://danielkmak.com/blog/programming/storytelling/novel/2017/05/29/50-shades-of-programming-what-if-christian-grey-were-a-programmer.html", true);
+                xmlhttp.open("GET", "https://www.reddit.com/api/info.json?url=" + escape(this.redditButton.dataset.shareUrl), true);
                 xmlhttp.send();
             },
 
