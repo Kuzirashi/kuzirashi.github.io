@@ -565,8 +565,9 @@ a.post-link {
   font-size: 14px;
   font-weight: 300;
   text-align: center; }
-  .dark-theme .image-caption {
-    color: #999999; }
+  .image-caption a {
+    color: inherit;
+    text-decoration: underline; }
 
 .image_centered {
   display: block;
@@ -640,8 +641,8 @@ a.post-excerpt {
   margin-top: 10px; }
   .post-tags__tag {
     display: inline-block;
-    background: #000;
-    color: white;
+    background: #d4d4d4;
+    color: #757575;
     height: 30px;
     line-height: 30px;
     padding: 0 6px;
@@ -963,3 +964,5 @@ hr {
     .post-list li .post-thumbnail {
       margin: 0;
       padding-right: 0; } }
+.image-80 {
+  max-width: 80%; }
