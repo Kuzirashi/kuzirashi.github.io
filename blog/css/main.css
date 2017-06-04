@@ -866,7 +866,8 @@ hr {
     .share-buttons header {
       text-align: center; }
     .share-buttons .share-button {
-      margin-left: 10px; } }
+      margin-left: 10px;
+      cursor: pointer; } }
 .read-further {
   display: block; }
   .read-further a {
