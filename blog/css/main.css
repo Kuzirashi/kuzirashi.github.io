@@ -112,16 +112,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(1000px - (30px));
-      max-width: calc(1000px - (30px));
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -456,6 +456,9 @@ pre {
   .highlight .il {
     color: #099; }
 
+.footer-wrapper {
+  max-width: 800px; }
+
 .dark-theme {
   color: white;
   background-color: black; }
@@ -670,7 +673,7 @@ a.post-excerpt {
 .fb-container {
   float: left;
   width: 100%;
-  max-width: 470px; }
+  max-width: 400px; }
   .fb-container blockquote {
     display: none; }
 
@@ -687,8 +690,7 @@ a.post-excerpt {
   float: left;
   width: 100%;
   background-size: contain;
-  position: relative;
-  max-width: 470px; }
+  position: relative; }
   .footer-right__wrapper {
     width: 100%;
     height: 100%;
@@ -936,8 +938,9 @@ hr {
 
 @media screen and (min-width: 820px) {
   .footer-right {
-    width: calc(100% - 470px);
-    float: right; }
+    width: calc(100% - $footerElementWidth);
+    float: right;
+    max-width: 400px; }
 
   .footer-sub-links {
     right: 0;
@@ -966,3 +969,6 @@ hr {
       padding-right: 0; } }
 .image-80 {
   max-width: 80%; }
+
+.text-center {
+  text-align: center; }
