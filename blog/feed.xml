@@ -5,8 +5,8 @@
     <description>Find unique stories</description>
     <link>http://danielkmak.com/blog/</link>
     <atom:link href="http://danielkmak.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jun 2017 00:26:09 +0200</pubDate>
-    <lastBuildDate>Mon, 05 Jun 2017 00:26:09 +0200</lastBuildDate>
+    <pubDate>Tue, 13 Jun 2017 23:10:30 +0200</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 23:10:30 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -108,8 +108,6 @@
     &lt;li&gt;“Then throw me like I’m one of your exceptions.”&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;To be continued.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 May 2017 11:00:00 +0200</pubDate>
         <link>http://danielkmak.com/blog/programming/storytelling/novel/2017/05/29/50-shades-of-programming-what-if-christian-grey-were-a-programmer.html</link>
@@ -121,6 +119,143 @@
         <category>storytelling</category>
         
         <category>novel</category>
+        
+      </item>
+    
+      <item>
+        <title>What you need to start writing about programming</title>
+        <description>&lt;p&gt;Blogging about programming gets more and more popular. Is it hard to begin writing? See for yourself.&lt;/p&gt;
+
+&lt;p&gt;For the past year I have observed blogging trends. I’ll share with you my research. You can draw your own conclusions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be careful!&lt;/strong&gt; &lt;em&gt;This is powerful knowledge. Please use it carefully and remember about this article when you’ll get to the top.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Tips to become fulfilled blogger:&lt;/b&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;write on technical topic which has already been covered by other programmers on their blogs (&lt;strong&gt;“Better to have, and not need, than to need, and not have.”&lt;/strong&gt;)&lt;/li&gt;
+    &lt;li&gt;use WordPress (“Every blogger should use it.”)&lt;/li&gt;
+    &lt;li&gt;create tutorial with 20 parts of mastering popular library (well it’ll be an achievement if you get to finish it, not to mention your readers)&lt;/li&gt;
+    &lt;li&gt;never ever do the marketing part of your blogs right (“readers? who needs them?”)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you complete these 4 steps I promise you — you’ll be ready to continue your journey to constantly getting 100k monthly views on your articles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important!&lt;/strong&gt; Make sure your site is published (for example on &lt;a href=&quot;localhost&quot;&gt;localhost&lt;/a&gt;) and &lt;em&gt;ping localhost&lt;/em&gt; responds with something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PING localhost (127.0.0.1): 56 data bytes&lt;/p&gt;
+
+  &lt;p&gt;64 bytes from 127.0.0.1: icmp_seq=0 ttl=64 time=0.059 ms&lt;/p&gt;
+
+  &lt;p&gt;64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.053 ms&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Blog responds pretty fast. It means we did optimization part right. Site is ready and technical part is done.&lt;/p&gt;
+
+&lt;h2 id=&quot;help&quot;&gt;Help!&lt;/h2&gt;
+
+&lt;p&gt;If you didn’t complete these steps and you need some help - feel free to use these tips to get first part of our preparations done:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Technical topic which has already been covered:&lt;/strong&gt; PHP — create CRUD application with MySQL&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Long tutorial that no one will read:&lt;/strong&gt; Master Angular 3 in 100 hours&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;WordPress download link:&lt;/strong&gt; &lt;a href=&quot;https://wordpress.org/download/&quot;&gt;https://wordpress.org/download/&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;/blog/programming/javascript/2017/05/06/what-will-happen-when-we-run-out-of-names-for-javascript-frameworks.html&quot;&gt;&lt;u&gt;&lt;strong&gt;If you have naming problem with your blog, you can choose one of the solutions from here.&lt;/strong&gt;&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now — you have lots of ideas and a site where you can publish your articles! You’re almost ready to write your first article! But hey, do you want it to be awesome? Stay with me for another moment. I’ll tell you how to make it great.&lt;/p&gt;
+
+&lt;h2 id=&quot;awesomizers&quot;&gt;&lt;strong&gt;Awesomizers&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can be the best writer, but your articles will never get attention without being awesome. How to make great post? Awesomize it! Here’s a list of awesomizers:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MacBook&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-what-you-need/macbook.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Doesn’t it look awesome?&lt;/p&gt;
+
+&lt;p&gt;You definitely need a MacBook. You get it and you’re already a blogger. Even if you write only Google search queries to find code on StackOverflow. Ideas come to your mind more often when you own Apple device. Its keyboard almost writes text for you. All you need to do is buy one, sit back, relax and watch how you become the best blogger in industry.&lt;/p&gt;
+
+&lt;p&gt;Perks:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Gives +25 boost to blogging skill.&lt;/li&gt;
+    &lt;li&gt;Every second article you write on it instantly becomes viral.&lt;/li&gt;
+    &lt;li&gt;Battery lasts long, so you can sleep in front of your laptop. When you wake up it’ll still be on. You can continue writing. It even lasts longer than your relationships.&lt;/li&gt;
+    &lt;li&gt;When Magic Mouse runs out of battery you have to charge it. You can’t use it when it’s recharging. Thanks to this phenomenal design you can safely get back to writing. After all, all you need is a keyboard.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-what-you-need/magic-mouse.jpeg&quot; class=&quot;image_centered&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Epic feature of Magic Mouse. Writer-friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Facebook page and sponsored ads&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You totally need it. It’s almost like cheating. Don’t worry you will have 20 likes when you begin. You can buy them. I didn’t tell you earlier, but sponsored ads are key to becoming good writer. Do you understand correlation between money spent on promoting your article and clicks? More money spent, more clicks, more readers. This is 100% guaranteed trick to become good blogger with lots of readers.&lt;/p&gt;
+
+&lt;p&gt;You could stop reading and already become top 1 blogger in the world. However, if you want to go hard way, because you like challenging yourself, continue reading.&lt;/p&gt;
+
+&lt;p&gt;Perks:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Your enemies and people who don’t like your site will also see it. Do you get this feeling of satisfaction and smile on your face already?&lt;/li&gt;
+    &lt;li&gt;You can get infinite number of readers — just as much as you’d like to have! Just throw money at Facebook people and you’ll get what you want. Disclaimer: Please don’t do so on conferences. Some people will think that’s rude.&lt;/li&gt;
+    &lt;li&gt;At last you have something to do with money lying in your bank account.&lt;/li&gt;
+    &lt;li&gt;Did you know that Facebook has its own awesomizer? &lt;a href=&quot;http://quellish.tumblr.com/post/126712999812/how-on-earth-the-facebook-ios-application-is-so&quot;&gt;Check their iOS application&lt;/a&gt;.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Sunglasses&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You think wearing sunglasses is totally unrelated to writing about programming? You’re absolutely right. At first glance it looks like this. But when you investigate deeply and do research you’ll find surprising fact. Here’s the data: &lt;strong&gt;every famous writer at least once in his life wore sunglasses.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/images/post-what-you-need/bearded-man.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-caption&quot;&gt;Sunglasses + beard + that shirt = SWAG&lt;/p&gt;
+
+&lt;p&gt;Perks:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.urbandictionary.com/define.php?term=SWAG&quot;&gt;SWAG&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Wearing sunglasses will reduce the amount of rays reaching the eye by filtering as much as 80 percent of the rays. Good writer is alive writer!&lt;/li&gt;
+    &lt;li&gt;You don’t see sun, you don’t see haters, you don’t see your way around in the building, but hey, still great asset!&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Last, but not least, for more readers on your articles — you need to live a brilliant life. Here are some optional awesomizers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;YouTube channel&lt;/li&gt;
+  &lt;li&gt;Ferrari&lt;/li&gt;
+  &lt;li&gt;Rolex&lt;/li&gt;
+  &lt;li&gt;Two girlfriends and a wife&lt;/li&gt;
+  &lt;li&gt;Beard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Believe in yourself and start writing! If you’ll encounter any crisis or lack of faith, please remember this sentence:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Why program when you can write about programming&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 23 May 2017 11:00:00 +0200</pubDate>
+        <link>http://danielkmak.com/blog/programming/satire/2017/05/23/what-you-need-to-start-writing-about-programming.html</link>
+        <guid isPermaLink="true">http://danielkmak.com/blog/programming/satire/2017/05/23/what-you-need-to-start-writing-about-programming.html</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>satire</category>
         
       </item>
     
